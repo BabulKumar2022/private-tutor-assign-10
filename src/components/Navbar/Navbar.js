@@ -1,8 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import CustomLink from '../../CustomLink/CustomLink';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import auth from '../../Firebase/Firebase.init';
+import { getAuth, signInWithEmailAndPassword, signOut } from 'firebase/auth';
 
 const Navbar = () => {
+
+    const [user, loading, error] = useAuthState(auth);
+
+
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
@@ -22,11 +29,16 @@ const Navbar = () => {
                 <CustomLink className="nav-link" to="/blogs">Blogs</CustomLink>
                 </li>
                 <li className="nav-item">
-                <CustomLink className="nav-link" to="/login">Login</CustomLink>
+                <CustomLink className="nav-link" to="/login">{
+                  !user ? 'Login' : <span> <button
+                  onClick={()=>signOut(auth)}
+                   type="button" className="btn btn-light">Sign out</button>{ user.email}
+                  </span>
+              }</CustomLink>
                 </li>
             </ul>
             <span className="navbar-text">
-                Navbar text with an inline element
+              
             </span>
             </div>
         </div>

@@ -1,82 +1,82 @@
 [
   {
     "id": 1,
-    "name": "Asus Vivobook X515MA",
-    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-15-x515ea/vivobook-15-x515ea-01-500x500.jpg",
-    "price": "50040",
-    "category": "Laptop"
+    "name": "General Math",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7Din-mzCwftEz0ysHwhx6nq5HIM3L6HyWQg&usqp=CAU",
+    "price": "2500",
+    "category": "Algabra"
   },
   {
     "id": 2,
-    "name": "Acer Extensa 15 EX215-52-384M",
-    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/acer/ex215-52-384m/ex215-52-384m-001-500x500.jpg",
+    "name": "Computer Scince",
+    "img": "https://us.123rf.com/450wm/gpointstudio/gpointstudio1904/gpointstudio190400149/120790590-young-mother-working-from-home-with-daughter.jpg?ver=6",
    
-    "price": "39000",
-    "category": "Laptop"
+    "price": "3000",
+    "category": "Application"
   },
   {
     "id": 3,
-    "name": "Acer Aspire 5 A515-56 Core i3",
-    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/acer/aspire-5-a515-56/aspire-5-a515-56-01-500x500.jpg",
+    "name": "Bangla",
+    "img": "https://i0.wp.com/world-education-blog.org/wp-content/uploads/2020/02/screenshot-2020-02-12-at-14.16.42.png?resize=326%2C206&ssl=1",
     
-    "price": "43000",
-    "category": "Laptop"
+    "price": "4000",
+    "category": "Grammer"
   },
   {
     "id": 4,
-    "name": "Asus Vivobook X515MA Celeron N4020",
-    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-15-x515ea/vivobook-15-x515ea-01-500x500.jpg",
+    "name": "Hand Writing",
+    "img": "https://images.practicaladultinsights.com/woman-and-studying-boy.jpg",
     
-    "price": "51000",
-    "category": "Laptop"
+    "price": "1000",
+    "category": "Arts"
   },
   {
     "id": 5,
-    "name": "ASUS champion A400 Xcel",
-    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-14-k413ea/vivobook-14-k413ea-06-500x500.jpg",
+    "name": "Geography",
+    "img": "https://www.thebalancesmb.com/thmb/M9CVUgZCvR7CVXRU7c9gs-ss2D4=/2121x1414/filters:fill(auto,1)/GettyImages-511940472-5a661221e581db001a5d6471.jpg",
     
-    "price": "17020",
-    "category": "Shotgun"
+    "price": "1020",
+    "category": "Bangal"
   },
   {
     "id": 6,
-    "name": "Dell Inspiron 15 3510 ",
-    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/dell/inspiron-15-3510/inspiron-15-3510-01-500x500.jpg",
+    "name": "Esay Writing",
+    "img": "https://5.imimg.com/data5/JC/WF/QO/SELLER-2994193/home-tutor-for-cbse-500x500.jpg",
     
     "price": "3900",
-    "category": "Shotgun"
+    "category": "English"
   },
   {
     "id": 7,
-    "name": "Acer Gaming Aspire 7 A715",
-    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/acer/aspire-7/aspire-7-01-228x228.jpg",
+    "name": "General history",
+    "img": "https://us.123rf.com/450wm/primagefactory/primagefactory1801/primagefactory180100190/92878023-smiling-elegant-family-teacher-woman-using-mobile-digital-tablet-to-teach-female-student-studying-an.jpg?ver=6",
    
-    "price": "54030",
-    "category": "Laptop"
+    "price": "5030",
+    "category": "bangla"
   },
   {
     "id": 8,
-    "name": "Dell  Ryzen 7 3700U",
-    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/dell/15-3505/3505-01-500x500.jpg",
+    "name": "Spots",
+    "img": "https://www.globaltimes.cn/Portals/0/attachment/2021/2021-07-04/2f7ad9f6-6ea9-470e-b9a1-d65775affc84.jpeg",
    
-    "price": "57070",
-    "category": "Laptop"
+    "price": "7070",
+    "category": "spots"
   },
   {
     "id": 9,
-    "name": "Lenovo IdeaPad Slim 3i ",
-    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/ideapad-slim-3i/ideapad-slim-3i-0010-500x500.jpg",
+    "name": "English",
+    "img": "https://s3.theasianparent.com/cdn-cgi/image/height=250/tap-assets-prod/wp-content/uploads/sites/12/2017/03/private-tutors-in-singapore-lead.jpg",
     
-    "price": "52000",
-    "category": "Laptop"
+    "price": "5000",
+    "category": "Grammer"
   },
   {
     "id": 10,
-    "name": "HP 15s-du3786TU Core i3 ",
-    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/15s-du3786tu/15s-du3786tu-001-500x500.jpg",
+    "name": "Kids Play ",
+    "img": "https://smiletutor.sg/wp-content/uploads/2016/07/private-tuition.jpg",
     
-    "price": "55000",
-    "category": "Laptop"
+    "price": "5000",
+    "category": "play"
   }
   
   

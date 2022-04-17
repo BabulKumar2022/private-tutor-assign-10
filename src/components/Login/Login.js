@@ -43,11 +43,14 @@ const Login = () => {
    
     const handleSubmit = (event) =>{
         event.preventDefault();
-        if(userInfo.password !== userInfo.confirmPassword){
-            setPassWordError('Password can not match');
-            return;
-        }
+        
         if(! login){
+            if(userInfo.password !== userInfo.confirmPassword){
+                setPassWordError('Password can not match');
+                return;
+            }
+
+
             setPassWordError('');
             createUserWithEmailAndPassword(userInfo.email, userInfo.password);
         }else{
@@ -73,12 +76,12 @@ const Login = () => {
             <h1>{login ? 'Login' : 'Register'}</h1>
                 <div className="mb-3">
                     <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
-                    <input onBlur={(event)=> handleFormInput(event)} type="text" className="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                    <input required onBlur={(event)=> handleFormInput(event)} type="text" className="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp"/>
                     <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
                 </div>
                 <div className="mb-3">
                     <label htmlFor="exampleInputPassword1" className="form-label">Password</label>
-                    <input onBlur={(event)=> handleFormInput(event)} type="password" name="password" className="form-control" id="exampleInputPassword1"/>
+                    <input required onBlur={(event)=> handleFormInput(event)} type="password" name="password" className="form-control" id="exampleInputPassword1"/>
                 </div>
                 {
                    !login && <div className="mb-3">
@@ -87,7 +90,7 @@ const Login = () => {
                 </div>
                 }
                 <div className="mb-3 form-check">
-                    <input type="checkbox" className="form-check-input" id="exampleCheck1" onChange={()=> setLogin(!login)}/>
+                    <input required type="checkbox" className="form-check-input" id="exampleCheck1" onChange={()=> setLogin(!login)}/>
                     <label className="form-check-label" htmlFor="exampleCheck1">Already Register</label>
                 </div>
                 <button type="submit" className="btn btn-primary">{login ? 'Login' : 'Register'}</button>
