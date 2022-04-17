@@ -1,6 +1,13 @@
 import React, { useState } from 'react';
-import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useCreateUserWithEmailAndPassword, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../Firebase/Firebase.init';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import { navigate, useLocation, useNavigate } from 'react-router-dom';
+
+
+
+
+
 
 const Login = () => { 
     const [login, setLogin]= useState(false);
@@ -19,7 +26,15 @@ const Login = () => {
             createError,
         ] = useCreateUserWithEmailAndPassword(auth);
 
+        // current user login
+        const [
+            signInWithEmailAndPassword,
+            user,
+            loading,
+            error,
+          ] = useSignInWithEmailAndPassword(auth);
 
+          const [loginUser, loginLoading, loginError] = useAuthState(auth);
 
    const handleFormInput = (event) =>{
        console.log(event.target.name, event.target.value);
@@ -30,13 +45,26 @@ const Login = () => {
         event.preventDefault();
         if(userInfo.password !== userInfo.confirmPassword){
             setPassWordError('Password can not match');
+            return;
+        }
+        if(! login){
+            setPassWordError('');
+            createUserWithEmailAndPassword(userInfo.email, userInfo.password);
+        }else{
+            signInWithEmailAndPassword(userInfo.email, userInfo.password);
         }
 
 
         console.log(userInfo);
     }
+   
+    let navigate = useNavigate();
+    let location = useLocation();
     
-    
+    let from = location.state?.from?.pathname || "/";
+    if(loginUser){
+        navigate(from, { replace: true });
+    }
     
     return (
         <div className='container'>
@@ -64,6 +92,15 @@ const Login = () => {
                 </div>
                 <button type="submit" className="btn btn-primary">{login ? 'Login' : 'Register'}</button>
                 <p className='text-danger'>{passWordError}</p>
+                {
+                    createError && <p className='text-danger'>{createError.message}</p>
+                }
+                {
+                    createUser && <p className='text-success'>User create successfully</p>
+                }
+                {
+                    user && <p className='text-success'>Login successfully</p>
+                }
             </form>
         </div>
     );

@@ -6,12 +6,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAOUVBGg0wf2X7iTr-QkPsi3Eg_d1WtcCo",
-  authDomain: "route-firebase-8a0e8.firebaseapp.com",
-  projectId: "route-firebase-8a0e8",
-  storageBucket: "route-firebase-8a0e8.appspot.com",
-  messagingSenderId: "679097902789",
-  appId: "1:679097902789:web:b12b08984bf3f308bc72ac"
+  apiKey: "AIzaSyAMy2BQ0xeDH4AJE5L9x5A85IdtczX0VqU",
+  authDomain: "email-pass-auth-623d3.firebaseapp.com",
+  projectId: "email-pass-auth-623d3",
+  storageBucket: "email-pass-auth-623d3.appspot.com",
+  messagingSenderId: "209772495361",
+  appId: "1:209772495361:web:37657f1f42ba8aa542f600"
 };
 
 // Initialize Firebase
