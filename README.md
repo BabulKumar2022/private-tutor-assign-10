@@ -1,6 +1,6 @@
 #  Private Tutor
 
-My private tutor  web site demo link (https://github.com/facebook/create-react-app).
+My private tutor  web site demo link (https://stately-mousse-81ce0a.netlify.app/).
 
 # * My Private Tutor web page details
 # * Home page:
