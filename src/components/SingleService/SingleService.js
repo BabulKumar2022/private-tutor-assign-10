@@ -6,7 +6,7 @@ const SingleService = ({user}) => {
     const {name, id, img,description, price}= user || {};
     return (
         
-            <div className=" container col-4 gy-2"  >
+            <div className=" container col-4 gy-2  "  >
                 <div className="card">
                     <div className="card-container">
                         <img className='img-size' src={img} alt=""></img>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Cart = () => {
     return (
@@ -14,7 +15,8 @@ const Cart = () => {
                     <li className="list-group-item">Computer Science: 2/month</li>
                     <li className="list-group-item">Bangla: 4/month</li>
                 </ul>
-                </div>
+                <Link to="/home" className="btn btn-primary">Go home</Link>
+            </div>
         </div>
     );
 };

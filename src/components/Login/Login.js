@@ -73,7 +73,8 @@ const Login = () => {
         <div className='container'>
            
             <form className=' w-50 mx-auto mt-5' onSubmit={handleSubmit}>
-            <h1>{login ? 'Login' : 'Register'}</h1>
+            
+            <h1>{login ? 'Login'  : 'Register'} </h1>
                 <div className="mb-3">
                     <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
                     <input required onBlur={(event)=> handleFormInput(event)} type="text" className="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp"/>
@@ -94,6 +95,8 @@ const Login = () => {
                     <label className="form-check-label" htmlFor="exampleCheck1">Already Register</label>
                 </div>
                 <button type="submit" className="btn btn-primary">{login ? 'Login' : 'Register'}</button>
+                
+
                 <p className='text-danger'>{passWordError}</p>
                 {
                     createError && <p className='text-danger'>{createError.message}</p>

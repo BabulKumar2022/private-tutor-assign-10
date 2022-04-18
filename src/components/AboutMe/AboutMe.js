@@ -1,5 +1,6 @@
 import React from 'react';
 import './AboutMe.css'
+import { Link } from 'react-router-dom';
 
 const AboutMe = () => {
     return (
@@ -13,8 +14,9 @@ const AboutMe = () => {
                     <h4>Name: Babul Kumar Biswas </h4> 
                     <h5> Bss(Hons), MSS in Economics</h5>
                     <p>I am a professional private tutor. I help all students about Math,Science, Computer and more....</p>
-
+                    
                 </div>
+                <Link to="/home" className="btn btn-primary">Go home</Link>
             </div>
             
            

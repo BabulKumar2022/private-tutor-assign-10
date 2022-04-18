@@ -29,11 +29,14 @@ const Home = () => {
             </div>
 
             <h2 className='services-heading'>My Services</h2>
-            <div className="row">
-            {
-                data.map(user=><SingleService key={user.id} user={user}></SingleService>)
-            }
+            <div className="card-container">
+                <div className="row">
+                {
+                    data.map(user=><SingleService key={user.id} user={user}></SingleService>)
+                }
+                </div>
             </div>
+            
             
         </div>
     );

@@ -14,7 +14,7 @@ import RequireAuth from './RequireAuth/RequireAuth';
 function App() {
   return (
     <div >
-      <Navbar></Navbar>
+      <Navbar ></Navbar>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='home' element={<Home></Home>}></Route>

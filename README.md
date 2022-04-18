@@ -1,25 +1,25 @@
-# * Private Tutor
+#  Private Tutor
 
 My private tutor  web site demo link (https://github.com/facebook/create-react-app).
 
-## My Private Tutor web page details
-## Home page:
+# * My Private Tutor web page details
+# * Home page:
 * 1. Navbar
 * 2. Footer
 * 3. Header Banner
 * 4. service Section
-## Service Page
-## Blogs
-## About Me
-## Login/SignUp
+# * Service Page
+# * Blogs
+# * About Me
+# * Login/SignUp
 * 1. Login form with Required Email And Password
 * 2. form validation
 * 3. 
-## NotFound
+# * NotFound
 
-# Used Framework:
+# * Used Framework:
 * 1 Bootstrap
-# Used Tech:
+# * Used Tech:
 * 1. React js
 * 2. CustomLink
 * 3. Routes
