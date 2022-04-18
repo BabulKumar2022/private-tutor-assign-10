@@ -4,23 +4,24 @@
     "name": "General Math",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7Din-mzCwftEz0ysHwhx6nq5HIM3L6HyWQg&usqp=CAU",
     "price": "2500",
-    "category": "Algabra"
+    "description" : "General math are included Algebra. Trigonometry, geometry and fundamental mathematics theory and telephone support and more.....",
+    "category": "Algebra"
   },
   {
     "id": 2,
-    "name": "Computer Scince",
+    "name": "Computer Science",
     "img": "https://us.123rf.com/450wm/gpointstudio/gpointstudio1904/gpointstudio190400149/120790590-young-mother-working-from-home-with-daughter.jpg?ver=6",
-   
+    "description" :" Computer science are included basic hardware and software, application programme microsoft office bundle, windows operating system and online support",
     "price": "3000",
     "category": "Application"
   },
   {
     "id": 3,
-    "name": "Bangla",
+    "name": "Bangle",
     "img": "https://i0.wp.com/world-education-blog.org/wp-content/uploads/2020/02/screenshot-2020-02-12-at-14.16.42.png?resize=326%2C206&ssl=1",
-    
+    "description" :"Bangle are included basic bangle grammar, short story, hand writing, paragraph writing, spelling, vocabulary, poem , content writing, letter writing and more....",
     "price": "4000",
-    "category": "Grammer"
+    "category": "Grammar"
   },
   {
     "id": 4,
@@ -36,11 +37,11 @@
     "img": "https://www.thebalancesmb.com/thmb/M9CVUgZCvR7CVXRU7c9gs-ss2D4=/2121x1414/filters:fill(auto,1)/GettyImages-511940472-5a661221e581db001a5d6471.jpg",
     
     "price": "1020",
-    "category": "Bangal"
+    "category": "Bengal"
   },
   {
     "id": 6,
-    "name": "Esay Writing",
+    "name": "Easy Writing",
     "img": "https://5.imimg.com/data5/JC/WF/QO/SELLER-2994193/home-tutor-for-cbse-500x500.jpg",
     
     "price": "3900",
@@ -52,7 +53,7 @@
     "img": "https://us.123rf.com/450wm/primagefactory/primagefactory1801/primagefactory180100190/92878023-smiling-elegant-family-teacher-woman-using-mobile-digital-tablet-to-teach-female-student-studying-an.jpg?ver=6",
    
     "price": "5030",
-    "category": "bangla"
+    "category": "bangle"
   },
   {
     "id": 8,
@@ -68,7 +69,7 @@
     "img": "https://s3.theasianparent.com/cdn-cgi/image/height=250/tap-assets-prod/wp-content/uploads/sites/12/2017/03/private-tutors-in-singapore-lead.jpg",
     
     "price": "5000",
-    "category": "Grammer"
+    "category": "Grammar"
   },
   {
     "id": 10,

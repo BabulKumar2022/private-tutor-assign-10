@@ -29,6 +29,9 @@ const Navbar = () => {
                 <CustomLink className="nav-link" to="/blogs">Blogs</CustomLink>
                 </li>
                 <li className="nav-item">
+                <CustomLink className="nav-link" to="/aboutme">About me</CustomLink>
+                </li>
+                <li className="nav-item">
                 <CustomLink className="nav-link" to="/login">{
                   !user ? 'Login' : <span> <button
                   onClick={()=>signOut(auth)}

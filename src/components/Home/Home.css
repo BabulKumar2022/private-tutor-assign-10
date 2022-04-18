@@ -25,3 +25,13 @@ margin: 15px;
     margin-left: 30px;
    
 }
+.home-page{
+    margin-bottom: 100px;
+}
+.services-heading{
+    text-align: center;
+    color: hsl(16, 81%, 55%);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

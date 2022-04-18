@@ -13,7 +13,7 @@ const Home = () => {
      }   
 //   console.log(data)
     return (
-        <div className='container '> 
+        <div className='container home-page'> 
             <div className="header-area">
                 <div className="header-hero">
                     <div className="heder-left-text">
@@ -28,13 +28,7 @@ const Home = () => {
 
             </div>
 
-
-
-
-
-
-            
-            <h4>Total:{data.length}</h4>
+            <h2 className='services-heading'>My Services</h2>
             <div className="row">
             {
                 data.map(user=><SingleService key={user.id} user={user}></SingleService>)

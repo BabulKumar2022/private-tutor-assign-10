@@ -9,7 +9,7 @@ const Services = ({user}) => {
                 <div className="card">
                     {/* <img src="..." className="card-img-top" alt="..."> */}
                     <div className="card-body">
-                        <h5 className="card-title">Subject:{name}</h5>
+                        <h5 className="card-title">Coming Soon.........</h5>
                         <p className="card-text">Price:{price}</p>
                         <Link to="/cart" className="btn btn-primary">Order Now</Link>
                     </div>
